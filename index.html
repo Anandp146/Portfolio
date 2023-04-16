@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PORTFOLIO</title>
+
+
+		<!-- <link rel="shortcut icon" type="image/png"  href="my.jpg">	for logo -->
+        
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="my.jpg">	<!-- for logo -->
+        
+        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header design -->
+    <header class="header">
+        <a href="#" class="logo" >Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            
+            <a href="#home" class="active" >Home</a>
+            <a href="#about" >About</a>
+            <a href="#services" >Services</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    <!-- Home section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Anand Parmar</h1>
+            <h3>And I'm a <span class="auto-type"></span></h3>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+				var typed = new Typed(".auto-type", {
+					strings: ["Web Developer","Web designer","Front-End developer" , "Video Editor"],
+					typeSpeed: 100,
+					backSpeed: 100,
+					backDelay: 1000,
+					loop: true
+				})
+			</script>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/parmar.anand.39142"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://twitter.com/parmaranand328?t=6wcezwjqeDac6KZ4gysRIA&s=08"><i class='bx bxl-twitter'></i></a>
+                <a href="https://instagram.com/itz_ap_1406?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/anand-parmar-435951226"><i class='bx bxl-linkedin' ></i></a>
+                            
+            </div>
+            <a href="Anand Parmar Resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="Logo1.png"  alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="abc.jpg"  alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading"> About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>
+                Hello, my name is Anand Parmar. I am a dedicated and enthusiastic individual and I have completed my 10th and 12th grade education at P.V Modi High School. During my time there, I learned the importance of education, hard work, and perseverance.
+                Currently I am studying in CHARUSAT University. Enthusiastic about solving real life problem through my skills and learning new stuffs</p>
+                <a href="#" class="btn">Read More</a> 
+
+        </div>
+    </section>
+
+    <!-- services section  -->
+    <!-- <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>I'd love to design the frontend and work with backend of the Websites and I have designed many of the Websites before</p>
+                <a href="web-services.html" class="btn">Read More</a>
+            </div>
+            
+            <div class="services-box">
+                <i class='bx bx-network-chart' ></i>
+                <h3>Web Development</h3>
+                <p>I'd love to design the frontend and work with backend of the Websites and I have designed many of the Websites before</p>
+                <a href="web-services.html" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+               <i class="bx bx-game"></i>
+               <h3>Web Development</h3>
+               <p>I'd love to design the frontend and work with backend of the Websites and I have designed many of the Websites before</p>
+                <a href="web-services.html" class="btn">Read More</a>
+            </div>
+        </div>
+    
+    </section> -->
+<!-- MY skills  -->
+<section class="skill" id="skill">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="container">
+        <div class="col">
+          <ul class="skill">
+            <li><span class="blueline html"></span><em>HTML</em></li>
+            <li><span class="blueline css"></span><em>CSS</em></li>
+            <!-- <li><span class="blueline php"></span><em>PHP</em></li> -->
+            <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+            <li><span class="blueline jquery"></span><em>jQuery</em></li>
+            <li><span class="blueline c"></span><em>C/C++</em></li> 
+            <li><span class="blueline java"></span><em>Java</em></li> 
+          </ul>
+        </div>
+         
+      </div>
+</section>
+  <!-- idea original en: http://www.alessioatzeni.com/blog/css3-skill-bar-animation/ -->
+
+
+
+
+
+    <!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="web project.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>I am building an ecommerce frontend website, which involves designing an intuitive and attractive user interface for customers to browse, select, and purchase products, using technologies such as HTML, CSS, and JavaScript, and integrating it with the backend system.</p>
+                    <a href="https://ap1406.github.io/My-Ecommerce-FrontEnd/"><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+             <div class="portfolio-box">
+                <img src="Anand_Portfolio.png" class="img-fluid" alt="">
+                <div class="portfolio-layer">
+                    <h4>MY PORTFOLIO</h4>
+                    <p>My portfolio website showcases my work and skills in a visually appealing and organized manner to potential clients and employers</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+           <!-- <div class="portfolio-box">
+                <img src="portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit ipsam omnis cupiditate velit totam ab! Dolorum quasi soluta sunt deleniti.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div> -->
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCCSDrpxNMJfnppXnDXDcMZCcstSxKZwpWLGPdrFVFRgMnHlrxHHxzVtnQjqlTwbTwrMJV"><p><i class="bx bxl-gmail"></i>&nbsp;parmaranand328@gmail.com</p></a>
+        <br>
+    
+                        <a href="tel:+919023195177"><p><i class="bx bxs-phone"></i>&nbsp;+91&nbsp;9023195177</p></a>
+                            <div class="social-media">
+                                <a href="https://www.facebook.com/parmar.anand.39142"><i class='bx bxl-facebook' ></i></a>
+                                <a href="https://twitter.com/parmaranand328?t=6wcezwjqeDac6KZ4gysRIA&s=08"><i class='bx bxl-twitter'></i></a>
+                                <a href="https://instagram.com/itz_ap_1406?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram-alt' ></i></a>
+                                <a href="https://www.linkedin.com/in/anand-parmar-435951226"><i class='bx bxl-linkedin' ></i></a>
+                            </div>
+        <form name="submit-to-google-sheet">
+            <label>Feedback</label>
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+            </div>
+            <textarea name="Message" rows="6" placeholder="Your Feedback (optional)"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwDNXh8P0iTCloyUhjFtfmALt6e2fwtO8BBVD63TtUra6FLktzg8GF3oot58G4DfRfr/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+                form.addEventListener('submit', e => {
+                msg.innerHTML = "Successfully Submitted"
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {	
+                form.reset()
+                setTimeout(function(){
+                msg.innerHTML = ""
+                },100)
+                })
+                .catch(error => console.error('Error!', error.message))
+                })
+            </script>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
