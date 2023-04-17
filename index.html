@@ -170,7 +170,7 @@
                                 <a href="https://instagram.com/itz_ap_1406?igshid=ZDdkNTZiNTM="><i class='bx bxl-instagram-alt' ></i></a>
                                 <a href="https://www.linkedin.com/in/anand-parmar-435951226"><i class='bx bxl-linkedin' ></i></a>
                             </div>
-        <form name="submit-to-google-sheet">
+        <form name="submit-to-google-sheet" action="mailto:parmaranand328@gmail.com" method="post" enctype="text/plain">
             <label>Feedback</label>
             <div class="input-box">
                 <input type="text" name="Name" placeholder="Your Name" required>
@@ -180,14 +180,14 @@
             <button type="submit" class="btn btn2">Submit</button>
         </form>
         <span id="msg"></span>
-            <script>
-                const scriptURL = 'https://script.google.com/macros/s/AKfycbwDNXh8P0iTCloyUhjFtfmALt6e2fwtO8BBVD63TtUra6FLktzg8GF3oot58G4DfRfr/exec'
+            <!-- <script>
+                // const scriptURL = 'https://script.google.com/macros/s/AKfycbwDNXh8P0iTCloyUhjFtfmALt6e2fwtO8BBVD63TtUra6FLktzg8GF3oot58G4DfRfr/exec'
                 const form = document.forms['submit-to-google-sheet']
                 const msg = document.getElementById("msg")
                 form.addEventListener('submit', e => {
                 msg.innerHTML = "Successfully Submitted"
                 e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                fetch(mail, { method: 'POST', body: new FormData(form)})
                 .then(response => {	
                 form.reset()
                 setTimeout(function(){
@@ -196,7 +196,7 @@
                 })
                 .catch(error => console.error('Error!', error.message))
                 })
-            </script>
+            </script> -->
     </section>
 
     <script src="https://unpkg.com/scrollreveal"></script>
